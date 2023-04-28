@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(#f7efef, #e6dcdc);
+  background: linear-gradient(#7f7697, #e6dcdc);
   min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -51,7 +51,7 @@ h5 {
 }
 
 .categories button.selected {
-  background: pink;
+  background: rgb(167, 86, 99);
 }
 
 .categories button:hover {
@@ -69,7 +69,7 @@ h5 {
 
 .tasks {
   border-radius: 0.5rem;
-  border: grey solid 0.1rem;
+  border: rgb(102, 3, 3) solid 0.1rem;
   border-top: none;
   padding: 0 1rem;
   padding-bottom: 1rem;
@@ -77,8 +77,8 @@ h5 {
 }
 
 .tasks .task {
-  background: #ffffff99;
-  border: grey solid 0.1rem;
+  background: #db8a8a99;
+  border: grey solid 0.15rem;
   border-bottom: none;
   padding: 0.25rem 1rem 0.25rem 0.25rem;
   display: flex;
@@ -91,7 +91,7 @@ h5 {
 .tasks .task:last-of-type {
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-  border-bottom: grey solid 0.1rem;
+  border-bottom: rgb(182, 20, 20) solid 0.1rem;
 }
 
 .tasks .task .text {
@@ -100,11 +100,11 @@ h5 {
 }
 
 .tasks .task .label {
-  background: lightcyan;
-  color: blue;
+  background: rgb(50, 161, 161);
+  color: rgb(184, 88, 25);
   padding: 0.25rem;
   font-size: 0.75rem;
-  border: solid #cbcbff 0.15rem;
+  border: solid #c8c8e7 0.15rem;
   border-radius: 0.25rem;
 }
 
@@ -112,32 +112,32 @@ h5 {
   padding: 0 0.5rem;
   margin-left: auto;
   border-radius: 0.5rem;
-  background: #ffe9ed;
-  color: #ff7d7d;
+  background: #b60b36;
+  color: #ebe5e5;
   font-weight: bolder;
   font-size: 1rem;
-  border: solid #ffb1b1 0.1rem;
+  border: solid #eedbdb 0.1rem;
   cursor: pointer;
 }
 
 .tasks .task button.delete:hover {
-  filter: brightness(1.1);
+  filter: brightness(5.1);
 }
 
 .new-task-form {
-  border: solid #8989ff 0.1rem;
+  border: solid #e93790 0.1rem;
   display: flex;
   align-items: flex-end;
 }
 
 .new-task-form input[type="submit"] {
-  background: #6363ff;
+  background: #9c4d03;
   color: white;
   border: none;
   font-size: 1rem;
   cursor: pointer;
   box-sizing: border-box;
-  width: 7rem;
+  width: 9rem;
 }
 
 .new-task-form select {
@@ -145,7 +145,7 @@ h5 {
 }
 
 .new-task-form input[type="submit"]:hover {
-  filter: brightness(1.2);
+  filter: brightness(2.2);
 }
 
 button.toggle {
